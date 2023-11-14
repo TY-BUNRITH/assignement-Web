@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width:100%;
+    height:70px;
+    background-color:cornsilk;
+    display: flex;
+    position: fixed;
+}
+.nav .icon{
+    width: 30%;
+    height: 100%;
+}
+   .icon a i{
+        font-size: 35px;
+        color: black;
+        margin: 20px;
+        margin-left: 180px;
+        
+    }
+.nav .logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+    .logo img{
+        width: 150px;
+        margin: 10px;
+        margin-left: 200px;  
+    }
+.nav .block{
+    width:30%;
+    height: 100%;
+}
+    .block ul{   
+        list-style-type: none;
+        display: flex;
+    }
+    .block ul li {
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .block ul li a{
+        font-size: 25px;
+        color: black;
+    }
+
+
+    /* CONTAINER1 */
+.main{
+    width:100% ;
+    /* height: 2400px; */
+}
+    .main .container1{
+        width: 100%;
+    }
+        .container1 img{
+            width: 100%;
+            height: 800px;
+        }
+    .main .container2{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .container2 .men{
+            width: 30%;
+            height: 650px;
+            margin-top: 30px;
+            margin-left: 30px;
+            box-shadow: 2px 2px 2px 2px;
+        }
+        .container2 .women{
+            width: 30%;
+            height: 650px;
+            margin-top: 30px;
+            box-shadow: 2px 2px 2px 2px;
+        }
+        .container2 .accessories{
+            width: 30%;
+            height: 650px;
+            margin-top: 30px;
+            margin-right: 40px;
+            box-shadow: 2px 2px 2px 2px;
+        }
+            .men img, .women img, .accessories img{
+                width: 100%;
+                height: 100%;
+            }
+            .container2 .men h2, .women h2, .accessories h2{
+                text-align: center;
+                color: black;
+                margin-top: 10px;
+                border: 2px solid black;
+            }
+            .container2 .men a:link, .women a:link, .accessories a:link{
+                text-decoration: none;
+            }
+    .main .container3{
+        width: 90%;
+        height: 1950px;
+        margin:auto;
+    }
+    /* test */
+
+    .container3 .box-container {
+        margin-top: 30px;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
+         grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); 
+        gap: 1.5rem;
+      }
+      
+      .container3 .box-container .box {
+        border-radius: 0.5rem;
+        overflow: hidden;
+        background: #edf0f1;
+      }
+      
+      .container3 .box-container .box:hover .image{
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        transition-duration:0.5s ;
+      }
+      
+      .container3 .box-container .box .image {
+        height: 30rem;
+        overflow: hidden;
+        width: 100%;
+      }
+      
+      .container3 .box-container .box .image img {
+        height: 100%;
+        width: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+      
+      .container3 .box-container .box .content {
+        padding: 2rem;
+        text-align: left;
+      }
+      
+       /* .destination .box-container .box .content h3 {
+        font-size: 2rem;
+        color: #fff;
+      } s
+      .destination .box-container .box .content p {
+        padding: 1rem 0;
+        font-size: 1.4rem;
+        color: #d2dae2;
+        line-height: 2;
+      }  */
+       
+      .container3 .box-container .box .content a {
+        font-size: 1.7rem;
+        color: #0a99e5;
+      }
+      
+      .container3 .box-container .box .content a:hover i {
+        padding-left: 1rem;
+      }
+      
+      .container3 .box-container .box .content a i {
+        padding-right: .5rem;
+      }
+
+.footer{
+    background-color: black;
+    height: 200px;
+}
+.footer .
